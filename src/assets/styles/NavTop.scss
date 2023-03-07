@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root{
+    --nav-height:60px;
+}
+
+.navbar{
+    position: fixed;
+    z-index:9999;
+    width:100%;
+    height:var(--nav-height);
+    background-color:var(--nv2);
+    color:var(--nv3);
+    font-family: 'Righteous', cursive;
+}
+.app-name{
+    font-size:1.6rem;
+    margin: 0 0.5em;
+}
+
+.nav-bloc-infos-tel{
+    font-size: 0.7em;
+}
+
+.nav-button{
+    border-radius:30px;
+    background-color: transparent;
+    border: solid 1px var(--nv3);
+    padding:5px 10px;
+    &:hover{
+        background-color: var(--nv1);
+    }
+}

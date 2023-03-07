@@ -1,0 +1,75 @@
+:root {
+    --nv1:#1e2e2c;
+    --nv2:#154a43;
+    --nv3:#b0d6a7;
+    --nv4:#C3CBD6;
+  
+    --white:#fff;
+    --t-light:#797979;
+    --light-border-gray:#ededed;
+
+    --radius:15px;
+}
+
+
+button, input, input:focus, button:focus{outline: none !important;}
+
+.h100{height:100%;}
+.w100{width:100%;}
+
+.bg-primary{
+  background-color:var(--nv2);
+  color:var(--nv3);
+}
+
+section{
+  padding: 2em 0 3em 0;
+}
+
+.uppecase{text-transform: uppercase;}
+
+.flex{display:flex;}
+.flex-column{display:flex;flex-direction: column;}
+.ai-c{align-items: center;}
+.jc-c{justify-content: center;}
+.jc-sb{justify-content: space-between;}
+.p0{padding:0;}
+.mb-1{margin-bottom: 1em;}
+.gap10{gap:10px;}
+*[role="button"]{cursor: pointer;}
+
+
+.zoomable-img img{
+  transition: transform .3s;
+}
+.zoomable-img  img:hover{
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+
+
+/* ----------------------------------------- ATOM TABS ---------------------------------------------------------------------- */
+.atom-pan-tab-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex;
+  border-bottom: solid 1px var(--light-border-gray);
+  background-color:var(--light-border-gray);
+  border-radius:var(--radius);
+  overflow:hidden;
+}
+.atom-pan-tab-header-item {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  color:var(--nv2);
+}
+.atom-pan-tab-header-item.active {
+  font-weight: 600;
+  color: var(--nv2);
+  border-bottom: solid 4px var(--nv2);
+}
+.atom-pan-tab-header-item {
+  cursor: pointer;
+}
