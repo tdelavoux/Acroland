@@ -11,7 +11,7 @@ export function NavTop(){
             <Container css={{ h: '100%'}} lg>
                 <Row css={{ h: '100%'}} align="center" justify="space-between">
                     <div className="flex ai-c jc-c">
-                        <img src="src/assets/img/squirrel.svg" alt="Your SVG" height="40px" className="logo"/>
+                        <img src="/img/squirrel.svg" alt="Your SVG" height="40px" className="logo"/>
                         <span className="uppecase app-name">Acroland</span>
                     </div>
 

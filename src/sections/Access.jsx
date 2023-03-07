@@ -9,7 +9,7 @@ export function Access(){
                 <Text >
                     20 minutes de Montbéliard – 30 minutes de Belfort
                 </Text>
-                <Image height={300} src="/src/assets/img/map.jpg" />
+                <Image height={300} src="/img/map.jpg" />
             </Container>
         </section>
     );

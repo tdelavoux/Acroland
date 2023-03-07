@@ -16,19 +16,19 @@ export function Header(){
                 </div>
                 <div className="flex ai-c gap10">
                     <div className="header-activite flex-column ai-c jc-c">
-                        <img src="src/assets/img/tree.png" width={50}/>
+                        <img src="/img/tree.png" width={50}/>
                         <label>Acrobranche</label>
                     </div>
                     <div className="header-activite flex-column ai-c jc-c">
-                        <img src="src/assets/img/golf-club.svg" width={50}/>
+                        <img src="/img/golf-club.svg" width={50}/>
                         <label>Mini-Golf</label>
                     </div>
                     <div className="header-activite flex-column ai-c jc-c">
-                        <img src="src/assets/img/camping.png" width={50}/>
+                        <img src="/img/camping.png" width={50}/>
                         <label>Camping</label>
                     </div>
                     <div className="header-activite flex-column ai-c jc-c">
-                        <img src="src/assets/img/bbq.png" width={50}/>
+                        <img src="/public/img/bbq.png" width={50}/>
                         <label>Restauration</label>
                     </div>
                 </div>
