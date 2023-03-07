@@ -28,7 +28,7 @@ export function Header(){
                         <label>Camping</label>
                     </div>
                     <div className="header-activite flex-column ai-c jc-c">
-                        <img src="/public/img/bbq.png" width={50}/>
+                        <img src="/img/bbq.png" width={50}/>
                         <label>Restauration</label>
                     </div>
                 </div>
