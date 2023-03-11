@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import { NavTop } from './sections/NavTop.jsx'
-import { Header } from './sections/Header.jsx'
-import { Cards } from './sections/Cards.jsx'
-import { Activites } from './sections/Activites.jsx'
-import { Logement } from './sections/Logement.jsx'
-import { Access } from './sections/Access.jsx'
-import { Footer } from './sections/Footer.jsx'
+import { NavTop } from '/src/sections/NavTop.jsx'
+import { Header } from '/src/sections/Header.jsx'
+import { Cards } from '/src/sections/Cards.jsx'
+import { Activites } from '/src/sections/Activites.jsx'
+import { Logement } from '/src/sections/Logement.jsx'
+import { Access } from '/src/sections/Access.jsx'
+import { Footer } from '/src/sections/Footer.jsx'
 
 // 1. import `NextUIProvider` component
 import { NextUIProvider, createTheme } from '@nextui-org/react';
@@ -23,9 +23,7 @@ const theme = createTheme({
   }
 })
 
-import './App.css'
-
-function App() {
+function Index() {
 
   return (
     <NextUIProvider theme={theme}>
@@ -42,4 +40,4 @@ function App() {
   );
 }
 
-export default App
+export default Index

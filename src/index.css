@@ -10,24 +10,16 @@
 
     --radius:15px;
 }
-
-
+html, body, #root{margin:0;padding:0;height: 100%;}
 button, input, input:focus, button:focus{outline: none !important;}
+
 
 .h100{height:100%;}
 .w100{width:100%;}
 
-.bg-primary{
-  background-color:var(--nv2);
-  color:var(--nv3);
-}
-
-section{
-  padding: 2em 0 3em 0;
-}
-
+.bg-primary{background-color:var(--nv2);color:var(--nv3);}
+section{padding: 2em 0 3em 0;}
 .uppecase{text-transform: uppercase !important;}
-
 .flex{display:flex !important;}
 .flex-column{display:flex !important;flex-direction: column !important;}
 .ai-c{align-items: center !important;}
@@ -37,18 +29,8 @@ section{
 .mb-1{margin-bottom: 1em !important;}
 .gap10{gap:10px !important;}
 *[role="button"]{cursor: pointer;}
-
-
-.zoomable-img img{
-  transition: transform .3s;
-}
-.zoomable-img  img:hover{
-  -ms-transform: scale(1.05); /* IE 9 */
-  -webkit-transform: scale(1.05); /* Safari 3-8 */
-  transform: scale(1.05);
-}
-
-
+.zoomable-img img{transition: transform .3s;}
+.zoomable-img  img:hover{-ms-transform: scale(1.05); /* IE 9 */-webkit-transform: scale(1.05); /* Safari 3-8 */transform: scale(1.05);}
 
 /* ----------------------------------------- ATOM TABS ---------------------------------------------------------------------- */
 .atom-pan-tab-header {
