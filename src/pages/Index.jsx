@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import { NavTop } from '/src/sections/NavTop.jsx'
-import { Header } from '/src/sections/Header.jsx'
-import { Cards } from '/src/sections/Cards.jsx'
-import { Activites } from '/src/sections/Activites.jsx'
-import { Logement } from '/src/sections/Logement.jsx'
-import { Access } from '/src/sections/Access.jsx'
-import { Footer } from '/src/sections/Footer.jsx'
+import { NavTop } from '/src/sections/Index/NavTop.jsx'
+import { Header } from '/src/sections/Index/Header.jsx'
+import { Cards } from '/src/sections/Index/Cards.jsx'
+import { Activites } from '/src/sections/Index/Activites.jsx'
+import { Logement } from '/src/sections/Index/Logement.jsx'
+import { Access } from '/src/sections/Index/Access.jsx'
+import { Footer } from '/src/sections/Index/Footer.jsx'
 
 // 1. import `NextUIProvider` component
 import { NextUIProvider, createTheme } from '@nextui-org/react';
