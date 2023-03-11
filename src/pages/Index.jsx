@@ -17,6 +17,7 @@ const theme = createTheme({
     colors: {
       primary: '#154a43',
       secondary: '#b0d6a7',
+      white: '#ffffff'
     },
     space: {},
     fonts: {}
