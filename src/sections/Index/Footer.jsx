@@ -5,8 +5,6 @@ import { Box } from '/src/components/Blocs/Box.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitch, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
-import '/src/assets/styles/footer.scss'
-
 export function Footer(){
     return (
         <section id="footer" className="bg-primary">
