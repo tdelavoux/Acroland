@@ -1,4 +1,7 @@
-import { Grid, Container} from "@nextui-org/react";
+import { Grid, Container, Link, Text } from "@nextui-org/react";
+
+import { Box } from '/src/components/Blocs/Box.jsx'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitch, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
@@ -10,30 +13,29 @@ export function Footer(){
             <Container css={{ h: '100%'}} lg>
                 <Grid.Container gap={2} justify="center">
                     <Grid xs={4}  css={{ flexDirection: "column", alignItems: "flex-start" }}>
-                        <h5>A propos de nous</h5>
-                        <div className="flex ai-c gap10">
+                        <Text h5 color="secondary">A propos de nous</Text>
+                        <Box>
                             <FontAwesomeIcon icon={faTwitch} />
                             <FontAwesomeIcon icon={faFacebook} />
                             <FontAwesomeIcon icon={faInstagram} />
-                        </div>
-                        <a href="#">Le personnel ultra sympa</a>
-                        <a href="#">Informations presse</a>
-                        <a href="#">Nous contacter</a>
+                        </Box>
+                        <Link color="secondary">Le personnel ultra sympa</Link>
+                        <Link color="secondary">Informations presse</Link>
+                        <Link color="secondary">Nous contacter</Link>
                     </Grid>
                     <Grid xs={4}  css={{ flexDirection: "column", alignItems: "flex-start" }}>
-                        <h5>Aide</h5>
-                        <a href="#">Préparer son séjour</a>
-                        <a href="#">Plan du site</a>
-                        <a href="#">FAQ</a>
+                        <Text h5 color="secondary">Aide</Text>
+                        <Link color="secondary">Préparer son séjour</Link>
+                        <Link color="secondary">Plan du site</Link>
+                        <Link color="secondary">FAQ</Link>
                     </Grid>
                     <Grid xs={4}  css={{ flexDirection: "column", alignItems: "flex-start" }}>
-                        <h5>Conditions</h5>
-                        <a href="#">Mentions légales</a>
-                        <a href="#">Données personnelles</a>
-                        <a href="#">Paramètre des cookies</a>
+                        <Text h5 color="secondary">Aide</Text>
+                        <Link color="secondary">Mentions légales</Link>
+                        <Link color="secondary">Données personnelles</Link>
+                        <Link color="secondary">Paramètre des cookies</Link>
                     </Grid>
                 </Grid.Container>
-                
             </Container>
         </section>
     );
