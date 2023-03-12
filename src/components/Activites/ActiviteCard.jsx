@@ -1,4 +1,4 @@
-import { Card, Col, Row, Button, Text } from "@nextui-org/react";
+import { Card, Text } from "@nextui-org/react";
 
 export const ActiviteCard = ({url, title, text}) => (
     <Card isPressable>
